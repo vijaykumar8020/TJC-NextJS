@@ -15,7 +15,7 @@ const bannerData: BannerProps = {
     'Learn about our accreditation standards, the survey process, and what they mean for your organization. We want you to succeed in your accreditation. To help you prepare, we offer a variety of support, technical resources, and educational offerings.',
   button1Label: 'See the Full Survey Activity Guide',
   button2Label: 'Contact a Team Member for Support',
-  backgroundVideoUrl: 'https://www.youtube.com/embed/a-V6fczA0NM',
+  backgroundVideoUrl: 'https://www.youtube.com/watch?v=zCogOPut4yQ',
   backgroundVimeoUrl: 'https://vimeo.com/1012770686',
   backgroundImage: 'https://picsum.photos/seed/picsum/200/300',
 };
@@ -70,8 +70,8 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>{bannerData.title} | Your Organization Name</title>
-        <meta name="description" content={bannerData.description} />
+        {/* <title>{bannerData.title} | Your Organization Name</title> */}
+        {/* <meta name="description" content={bannerData.description} /> */}
         <link rel="preload" href={bannerData.backgroundImage} as="image" />
       </Head>
       <main>
