@@ -1,5 +1,3 @@
-// types.ts
-
 export interface ButtonProps {
     label: string;
     onClick?: () => void;
@@ -12,6 +10,7 @@ export interface ButtonProps {
     button1Label: string;
     button2Label: string;
     backgroundVideoUrl?: string; // Video can be optional
+    backgroundVimeoUrl: string; // Video can be optional
     backgroundImage?: string; // Image can be optional
     isYouTube?: boolean; // Flag to check if video is YouTube or Vimeo
   }

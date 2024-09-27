@@ -36,7 +36,7 @@ const Banner: React.FC<BannerProps> = ({
 }) => {
   return (
     <div
-      className="relative h-screen flex items-center justify-center text-center"
+      className="relative h-screen flex items-center"
       style={{
         backgroundImage: backgroundImage ? `url(${backgroundImage})` : 'none',
         backgroundSize: 'cover',
@@ -52,24 +52,3 @@ const Banner: React.FC<BannerProps> = ({
 
 export default Banner;
 
-// export default function Banner() {
-//   return (
-//     <div className="hero-banner flex justify-center items-center h-screen">
-//       <div className="eyebrow-text">Accreditation</div>
-//       <h1>Accreditation Process</h1>
-//       <p>
-//         Learn about our accreditation standards, the survey process, and what
-//         they mean for your organization.{" "}
-//       </p>
-//       <p>
-//         We want you to succeed in your accreditation. To help you prepare, we
-//         offer a variety of support, technical resources, and educational
-//         offerings.
-//       </p>
-//       <div className="cta-warp">
-//         <Button label="See the Full Survey Activity Guide" />
-//         <Button label="Contact a Team Member for Support" />
-//       </div>
-//     </div>
-//   );
-// }

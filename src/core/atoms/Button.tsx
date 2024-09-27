@@ -7,7 +7,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ label }) => {
   return (
     <button
-      className="bg-primary text-white px-custom-p py-custom-m rounded"
+      className="bg-primary text-white"
     >
       {label}
     </button>
