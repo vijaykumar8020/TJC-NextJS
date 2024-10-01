@@ -17,7 +17,7 @@ const bannerData: BannerProps = {
   button2Label: 'Contact a Team Member for Support',
   backgroundVideoUrl: 'https://www.youtube.com/watch?v=zCogOPut4yQ',
   backgroundVimeoUrl: 'https://vimeo.com/1012770686',
-  backgroundImage: 'https://picsum.photos/seed/picsum/200/300',
+  backgroundImage: 'https://picsum.photos/seed/picsum/2000/1000',
 };
 
 const HomePage: React.FC = () => {

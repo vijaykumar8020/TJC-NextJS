@@ -107,13 +107,13 @@ const Banner: React.FC<BannerProps> = ({ earmark, title, body, imageUrl, videoUr
 
 // Dummy data for testing
 const dummyBannerData: BannerProps = {
-  earmark: "New Release",
-  title: "Welcome to Our Amazing Product",
-  body: "Experience the future of technology with our innovative solution. Designed to make your life easier and more productive.",
-  imageUrl: "",
+  earmark: "Accreditation",
+  title: "Accreditation Process",
+  body: "Learn about our accreditation standards, the survey process, and what they mean for your organization. We want you to succeed in your accreditation. To help you prepare, we offer a variety of support, technical resources, and educational offerings.",
+  imageUrl: "https://picsum.photos/seed/picsum/2000/1000",
   videoUrl: "",
-  cta1: { url: "/learn-more", text: "Learn More" },
-  cta2: { url: "/get-started", text: "Get Started" },
+  cta1: { url: "/learn-more", text: "See the Full Survey Activity Guide" },
+  cta2: { url: "/get-started", text: "Contact a Team Member for Support" },
   contentPosition: "left",
   fontSize: "M"
 };
