@@ -22,4 +22,5 @@ button{
     border-radius: 50%;
     text-align: center;
     z-index: 999;
+    padding: 10px 2px !important;
 }
