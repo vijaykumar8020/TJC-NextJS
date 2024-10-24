@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 iframe {
-    height: 500px !important;
+    height: 650px !important;
 }
 
 body{
@@ -13,4 +13,13 @@ body{
 
 *{
     box-sizing: border-box;
+}
+
+button{
+    width: 50px;
+    background: #4a3b3b !important;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
 }
