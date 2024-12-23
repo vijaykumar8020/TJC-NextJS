@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, React } from "react";
 import DateInputField from "../atoms/DateInputField";
+import { Calendar } from "@/components/components/ui/calendar";
 
 const TimeFrameFilter = ({ onApply }) => {
   const [fromDate, setFromDate] = useState("");
   const [toDate, setToDate] = useState("");
+  // const [date, setDate] = (React.useState < Date) | (undefined > new Date());
 
   const handleApply = () => {
     onApply({ fromDate, toDate });
@@ -27,6 +29,18 @@ const TimeFrameFilter = ({ onApply }) => {
       >
         Apply
       </button>
+      <Calendar
+        mode="range"
+        selected={'2023-01-01'}
+        // onSelect={(date) => setDate(date)}
+        className="rounded-md border"
+      />
+      <Calendar
+        mode="range"
+        selected={'2023-01-01'}
+        // onSelect={(date) => setDate(date)}
+        className="rounded-md border"
+      />
     </div>
   );
 };
