@@ -9,6 +9,7 @@ const AccordionItem = ({ title, children }) => {
         className="flex justify-between items-center p-3 cursor-pointer bg-gray-100 hover:bg-gray-200"
         onClick={() => setIsOpen(!isOpen)}
       >
+        <input type="checkbox" className="mr-2" />
         <span className="font-semibold text-gray-800">{title}</span>
         <span className="text-gray-600">{isOpen ? "-" : "+"}</span>
       </div>

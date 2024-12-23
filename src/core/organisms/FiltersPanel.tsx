@@ -1,6 +1,7 @@
 import AccordionItem from "../molecules/AccordionItem";
 import SelectBox from "../atoms/SelectBox";
 import TimeFrameFilter from "../molecules/TimeFrameFilter";
+import SortingDropdown from "../molecules/SortingDropdown";
 
 const FilterPanel = () => {
   const perPageOptions = [
@@ -40,6 +41,7 @@ const FilterPanel = () => {
       <AccordionItem title="Per Page Results">
         <SelectBox options={perPageOptions} defaultValue="10" />
       </AccordionItem>
+      
     </aside>
   );
 };

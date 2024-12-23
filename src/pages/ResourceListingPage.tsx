@@ -25,7 +25,7 @@ const Home = () => {
 
   // Function to handle sorting
   const sortResources = (type) => {
-    let sortedResources = [...resources];
+    const sortedResources = [...resources];
     switch (type) {
       case "recent":
         sortedResources.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -59,6 +59,7 @@ const Home = () => {
       <main className="p-5 w-full space-y-5">
         {/* Sorting Dropdown */}
         <SortingDropdown onSortChange={(value) => setSortType(value)} />
+
         <ResourceCard
           type="video"
           title="Cook County Health Webinar"
